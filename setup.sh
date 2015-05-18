@@ -43,8 +43,8 @@ cp config/.vimrc ~/
 echo "copy vimrc"
 fi
 
-git clone https://github.com/lxdvs/apk2gold.git
-cd apk2gold
-./make.sh
-ln -s apk2gold  ~/bin/apk2gold
+#git clone https://github.com/lxdvs/apk2gold.git
+#cd apk2gold
+#./make.sh
+#ln -s apk2gold  ~/bin/apk2gold
 
