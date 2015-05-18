@@ -36,10 +36,7 @@ echo "git config ok"
 fi
 
 
-if [ ! -f ~/.zshrc ] ; then
 cp config/.zshrc ~/
-echo "zshrc ok"
-fi
 
 if [ ! -f ~/.vimrc ] ; then
 cp config/.vimrc ~/
