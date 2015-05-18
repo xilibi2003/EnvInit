@@ -25,20 +25,23 @@ sudo apt-get install nautilus nautilus-open-terminal
 
 ./ohmyzsh_install.sh
 
+if [ ! -d ~/bin ] ; then
 cp bin ~/
+echo "copy bin"
+fi
 
-if [ ! -f ~/.gitconfig]; then
+if [ ! -f ~/.gitconfig ] ; then
 cp config/.gitconfig ~/
 echo "git config ok"
 fi
 
 
-if [ ! -f ~/.zshrc]; then
+if [ ! -f ~/.zshrc ] ; then
 cp config/.zshrc ~/
 echo "zshrc ok"
 fi
 
-if [ ! -f ~/.vimrc]; then
+if [ ! -f ~/.vimrc ] ; then
 cp config/.vimrc ~/
 echo "copy vimrc"
 fi
