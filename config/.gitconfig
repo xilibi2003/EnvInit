@@ -1,0 +1,19 @@
+[user]
+	name = YourName
+	email = YourName@kuba.bz
+[alias]
+	co = checkout
+	st = status
+	br = branch
+	ci = commit
+	dt = difftool
+[diff]
+    external = git-meld
+[difftool]
+	prompt = false
+[pull]
+	default = tracking
+[push]
+	default = tracking
+[core]
+	editor = vim
