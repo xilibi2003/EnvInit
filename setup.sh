@@ -26,7 +26,7 @@ sudo apt-get install nautilus nautilus-open-terminal
 ./ohmyzsh_install.sh
 
 if [ ! -d ~/bin ] ; then
-cp bin ~/
+cp -r bin ~/
 echo "copy bin"
 fi
 
