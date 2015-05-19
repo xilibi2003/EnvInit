@@ -1,0 +1,77 @@
+1. linux basic
+
+~   *   .   ..   -
+kill
+ps
+mkdir
+cat 
+grep 
+find
+echo   >>  
+ssh  scp
+
+nautilus  
+nautilus-open-terminal
+
+movement:
+ctrl+a ctrl + e
+alt + b  alt + f
+killing:
+ctrl + u  ctrl +k 
+
+ctrl + p
+ctrl + l
+
+readline shortcut
+http://www.bigsmoke.us/readline/shortcuts
+
+bash
+history
+!n histroy 编号
+!-n  倒数第n个历史命令  
+!! = !-1  sudo !!
+!keywork ()  
+ctrl + r 
+
+!$ :  上一条命令的最后一条参数
+!^ : 上一条命令的第一个参数
+cp http.conf http.conf_bk 
+vim !$
+
+
+~/.bashrc  
+alias ..=‘cd ..'
+
+function f() { find . -iname "*$1*" ${@:2} }
+function r() { grep "$1" ${@:2} -R . }
+
+
+~/.inputrc
+Key binding
+
+zsh  oh-my-zsh
+iterm2 on mac
+
+
+2. vim
+移动到行尾$，移动到行首0（数字）
+移动到文档开始gg，移动到文档结束G
+跳到第n行 ngg 或 nG 或 :n
+移动到段首{，移动到段尾}
+移动到下一个词w，移动到上一个词b
+
+搜索模式为 /string，搜索下一处为n，搜索上一处为N
+*  #  搜索当前词
+
+dd  y  p u  
+
+3. git
+不要多个工作目录
+branch
+tag
+alias
+base 
+diff
+revert
+
+gitk meld'
